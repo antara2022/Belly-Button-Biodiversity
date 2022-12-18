@@ -5,3 +5,9 @@ During this project, I used concepts that I have learned to build an interactive
 # static/js
 
 This folder contains app.js, my main JavaScript file.
+
+# Deploying index.html to GitHub Pages
+Next, I deployed my index.html file to GitHub Pages.
+
+# Final website
+https://antara2022.github.io/belly-button-challenge
