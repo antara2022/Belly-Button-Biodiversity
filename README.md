@@ -1,13 +1,36 @@
-# belly-button-challenge
+## Belly Button Biodiversity
+![image](https://github.com/antara2022/Belly-Button-Biodiversity/assets/112270155/0ba5d830-5b05-4f8c-bf1a-b78849c37d65)
 
-During this project, I used concepts that I have learned to build an interactive dashboard to explore the Belly Button Diversity Dataset (http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels. This folder contains index.html, my default homepage file. This folder also contains samples.json for reference. First, I used the D3 library to read in samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json. Next, I created a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual. I used sample_values as the values for the bar chart, otu_ids as the labels for the bar chart and otu_labels as the hovertext for the chart. Next, I created a bubble chart that displays each sample. I used otu_ids for the x values, sample_values for the y values, sample_values for the marker size, otu_ids for the marker colors, otu_labels for the text values. Next, I displayed the sample metadata, i.e., an individual's demographic information. Then, I displayed each key-value pair from the metadata JSON object somewhere on the page. Next, I updated all the plots when a new sample is selected. Then, I adapted the Gauge Chart from https://plot.ly/javascript/gauge-charts/ to plot the weekly washing frequency of the individual.
+Full-Stack Data Analysis to build an interactive dashboard exploring the Belly Button Biodiversity Dataset, which catalogs the microbes that colonize human navels, using Plotly.js.
 
-# static/js
+### Dataset:
+Belly Button Biodiversity DataSet: http://robdunnlab.com/projects/belly-button-biodiversity/
 
-This folder contains app.js, my main JavaScript file.
+## Objectives
+### Step 1 - D3
+Use Plotly.js to build interactive charts for the dashboard
+- Use the D3 library to read in samples.json from the URL.
 
-# Deploying index.html to GitHub Pages
-Next, I deployed my index.html file to GitHub Pages.
+### Step 2 - Plotly.js Bar Chart
+- Create a Bar Chart that uses data from the samples.json to display the top 10 samples
+  - Use sample_values as the values for the Bar Chart
+  - Use otu_ids as the labels for the Bar Chart
+  - Use otu_labels as the hovertext for the Bar Chart
+![image](https://github.com/antara2022/Belly-Button-Biodiversity/assets/112270155/b9e97d77-1758-4f3d-b49a-a3e9ebbcf988)
 
-# Final website
-https://antara2022.github.io/belly-button-challenge
+### Step 3 - Plotly.js Bubble Chart
+- Create a Bubble Chart that uses data from the samples.json to display each sample
+  - Use otu_ids for the x values
+  - Use sample_values for the y values
+  - Use sample_values for the marker size
+  - Use otu_ids for the marker colors
+  - Use otu_labels for the text values
+![image](https://github.com/antara2022/Belly-Button-Biodiversity/assets/112270155/9c0d5ebe-38ba-4667-a397-6a8c752c77fc)
+
+### Step 4 - Demographics JSON
+- Display the sample metadata from the samples.json
+  - Display each key/value pair from the metadata JSON object on the top left of the page
+- Update all of the plots any time that a new sample is selected
+![image](https://github.com/antara2022/Belly-Button-Biodiversity/assets/112270155/79f016da-422e-4057-a818-455d24cc9ee2)
+
+Contact: antara.choudhury3000@gmail.com
